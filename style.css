@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container, .calender, .right, .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(159, 166, 132);  
+}
+
+.calender{
+    background: white;
+    width: 52vw;
+    height: 32vw;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.right{
+    width: 56%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.left{
+    background-color: black;
+    color: white;
+    width: 44%;
+    height: 100%;
+    flex-direction: column;
+}
+#date{
+    font-size: 9vw;
+    font-weight: 600;
+    margin-bottom: 1.6vw;
+}
+
+#month{
+    margin-bottom: 1.6vw;
+}
+#month, #day, #year{
+    font-weight: 500;
+    font-size:3.6vw ;
+}
